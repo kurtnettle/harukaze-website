@@ -1,4 +1,4 @@
-import { Smartphone, Terminal } from 'lucide-svelte';
+import { Library, Smartphone, Terminal } from 'lucide-svelte';
 import type { ProjectMeta } from '../types';
 
 export const projects: ProjectMeta[] = [
@@ -20,5 +20,16 @@ export const projects: ProjectMeta[] = [
 		releasedOn: 1740333600,
 		techStack: ['Jetpack Compose', 'Kotlin', 'Ktor', 'Koin'],
 		repoName: 'harukaze-android'
+	},
+	{
+		id: 3,
+		name: 'Facfyndr',
+		icon: Library,
+		description:
+			'A community-driven faculty directory developed to help students easily find and connect with faculty members at BUBT',
+		releasedOn: 1741730226,
+		techStack: ['SvelteKit', 'TypeScript', 'TailwindCSS', 'Supabase', 'Drizzle-ORM', 'shadcn/ui'],
+		repoName: 'facfyndr',
+		liveUrl: 'https://facfyndr.pages.dev/'
 	}
 ];
